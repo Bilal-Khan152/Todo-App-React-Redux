@@ -1,0 +1,46 @@
+.container {
+
+  margin-top: 60px;
+}
+ .head{
+  color: white;   
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 40px;
+  font-style: italic;
+}
+.input {
+  border-radius: 5px;
+  border:1px solid white;
+  background-color: #212121;
+  color: wheat;
+  width: 30vw;
+}
+.Btn{
+    border-radius: 5px;
+    border: none;
+    background-color: skyblue;
+    color: black;
+}
+.Btn:hover{
+ background-color: black;
+ color: skyblue;
+}
+.List {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    
+    margin-top: 40px;
+    padding: 10px;
+    box-shadow: 1px 1px 2px 1px skyblue; 
+    border-radius: 5px;
+}
+.delete{
+  cursor: pointer;
+}
+.delete-btn{
+  border-radius: 5px;
+  border: none;
+  
+} 
+
